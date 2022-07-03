@@ -21,6 +21,13 @@ figure
 hist(sim03.AvecComp,50)
 
 
+figure
+plot(sim03.SansComp)
+figure
+plot(sim03.AvecComp)
+
+
+
 
 y = audioplayer(sim03.AvecComp, 16000);
 play(y)
